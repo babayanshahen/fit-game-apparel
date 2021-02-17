@@ -1,0 +1,101 @@
+{% comment %}
+	GEMPAGE BUILDER (https://apps.shopify.com/gempage)
+
+	You SHOULD NOT modify source code in this page because
+	It is automatically generated from GEMPAGE BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
+<!--GEM_HEADER-->
+<link data-instant-track rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" class="gf-style" />
+<link data-instant-track rel="stylesheet" type="text/css" href="https://d1um8515vdn9kb.cloudfront.net/files/vendor.css?refresh=1" class="gf-style" />
+<link data-instant-track rel="stylesheet" type="text/css" href="{{ 'gem-article-392328052897.css' | asset_url }}" class="gf_page_style">
+<!--GEM_HEADER_END-->
+<!-- /templates/article.liquid --><!-- /templates/article.liquid -->
+{% assign number_of_comments = article.comments_count %}{% if comment and comment.created_at %}
+  {% assign number_of_comments = article.comments_count | plus: 1 %}
+{% endif %}<div style="width: 100%">
+  {% if article.image %}
+    <img class="hero__image lazyload fade-in"
+         src="{{ article | img_url: 'master' }}">
+  {% endif %}
+</div><div class="grid">
+  <article class="grid__item large--five-sixths push--large--one-twelfth article" itemscope itemtype="http://schema.org/Article">    <header class="section-header text-center">
+      <h1>{{ article.title }}</h1>
+      <hr class="hr--small">
+      <p>
+        <span class="date"><time datetime="{{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ article.published_at | date: format: 'date' }}</time></span>
+      </p>
+    </header>    <div class="grid">
+      <div class="grid__item large--four-fifths push--large--one-tenth">        <div class="rte rte--indented-images" itemprop="articleBody">
+          <!--Gem_Page_Main_Editor--><div class="clearfix"></div><div class="gryffeditor">
+<div data-label="Article List" id="m-1601623011054" class="module-wrap" data-icon="gpicon-article-list" data-ver="1.0" data-id="1601623011054" style="min-height: auto;"><div class="module" data-bid="51302989962" data-bhandle="news" data-limit="3">{% if blogs.news.articles.size &gt; 0 %}{% assign articles = blogs.news.articles %}{% endif %}<div class="item-content item-content-no-placeholder"><div class="gf_row gf_row-no-width gf_row_no_tools gf_row-no-padding">{% assign colXsClass = ' gf_col-xs-' %}{% assign cols = 12 | divided_by: 1 %}{% assign colXsClass = colXsClass | append:cols %}{% assign colSmClass = ' gf_col-sm-' %}{% assign cols = 12 | divided_by: 3 %}{% assign colSmClass = colSmClass | append:cols %}{% assign colMdClass = ' gf_col-md-' %}{% assign cols = 12 | divided_by: 3 %}{% assign colMdClass = colMdClass | append:cols %}{% assign colLgClass = ' gf_col-lg-' %}{% assign cols = 12 | divided_by: 3 %}{% assign colLgClass = colLgClass | append:cols %}{% assign colClass = 'gf_column gf_col_no_tools' %}{% assign colClass = colClass | append: colXsClass %}{% assign colClass = colClass | append: colSmClass %}{% assign colClass = colClass | append: colMdClass %}{% assign colClass = colClass | append: colLgClass %}{% assign gALCount = 1 %}{% for article in articles limit: 3 %}<div class="{{colClass}}"><div data-label="Article" id="m-1601623011054-child{{forloop.index}}" class="module-wrap" data-icon="eicon-image-box" data-id="1601623011054-child{{forloop.index}}"><div class="module">{% assign article =  blog.articles['my-first-blog-post-1'] %}<div data-index="1" class="item-content"><div class="module-wrap" id="m-1601623011054-child{{forloop.index}}-0" data-id="1601623011054-child{{forloop.index}}-0" data-label="(A) Image" data-icon="gpicon-article-image"><div class="module gf_module-center gf_module-center-lg gf_module--md gf_module--sm gf_module--xs "><a href="{{article.url}}">{% if article.image.src %}<img class="gf_article-image" src="{{ article.image.src | img_url: '1024x1024' }}" style="width: 60%; height: auto" alt="{{ article.title }}">{% else %}<img class="gf_article-image" src="https://cdn.shopify.com/s/images/admin/no-image-2048x2048.gif" style="width: 60%; height: auto" alt="{{ article.title }}">{% endif %}</a></div></div><div class="module-wrap" id="m-1601623011054-child{{forloop.index}}-1" data-id="1601623011054-child{{forloop.index}}-1" data-label="(A) Title" data-icon="gpicon-article-title"><div class="module gf_module-center gf_module-center-lg gf_module--md gf_module--sm gf_module--xs "><h3><a href="{{article.url}}" class="gf_article-title">{{ article.title }}</a></h3></div></div><div class="module-wrap" id="m-1601623011054-child{{forloop.index}}-2" data-id="1601623011054-child{{forloop.index}}-2" data-label="(A) Content" data-icon="gpicon-article-content"><div class="module gf_module-center gf_module-center-lg gf_module--md gf_module--sm gf_module--xs "><div class="gf_article-content">{{ article.content | strip_html | truncatewords:20, '...' }}</div></div></div></div></div></div></div>{% assign modulo = gALCount | modulo: 1 %}{% if modulo == 0 %}<div class="gf_clearfix visible-xs"></div>{% endif %}{% assign modulo = gALCount | modulo: 3 %}{% if modulo == 0 %}<div class="gf_clearfix visible-sm"></div>{% endif %}{% assign modulo = gALCount | modulo: 3 %}{% if modulo == 0 %}<div class="gf_clearfix visible-md"></div>{% endif %}{% assign modulo = gALCount | modulo: 3 %}{% if modulo == 0 %}<div class="gf_clearfix visible-lg"></div>{% endif %}{% assign gALCount = gALCount | plus: 1 %}{% endfor %}</div></div></div></div><!--gfsplit--><div class="element-wrap" data-label="Text Block" id="e-1601622879930" data-icon="gpicon-textblock" data-ver="1" data-id="1601622879930"><div class="elm text-edit"><div style="text-align: center;"><p>This page content is generated by GemPages.<br>For more information, please visit: <a href="https://apps.shopify.com/gempage" target="_blank" rel="noreferrer" class="text-link">https://apps.shopify.com/gempage</a></p><p><a href="https://gempages.net/editor?shop=fit-game-apparel.myshopify.com&amp;id=392328052897&amp;page=the-mindset-to-achieve-you-health-and-fitness-goals&amp;type=template-page" target="_blank" class="text-link">Edit this page with GemPages</a></p></div></div></div><!--gfsplit-->
+</div><div id="divContentBk"></div><!--End_Gem_Page_Main_Editor-->        </div>        <ul class="tags tags--article inline-list">
+          {% include 'tags-article' %}
+        </ul>        {% if section.settings.social_sharing_blog %}
+          {% include 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
+        {% endif %}        {% if blog.comments_enabled? %}          {% if number_of_comments > 0 %}
+            <hr class="hr--large">
+            <h2 class="h3 text-center">{{ 'blogs.comments.with_count' | t: count: number_of_comments }}</h2>
+            <hr class="hr--small hr--clear">
+          {% endif %}          {% paginate article.comments by 5 %}
+            
+            <div id="comments">              {% if comment and comment.created_at %}
+                <p class="note form-success">
+                  {% if blog.moderated? %}
+                    {{ 'blogs.comments.success_moderated' | t }}
+                  {% else %}
+                    {{ 'blogs.comments.success' | t }}
+                  {% endif %}
+                </p>
+              {% endif %}              {% if number_of_comments > 0 %}
+                <ul class="no-bullets">
+                  
+                  {% if comment and comment.created_at %}
+                    <li id="{{ comment.id }}" class="comment first{% if article.comments_count == 0 %} last{% endif %}">
+                      {% include 'comment' %}
+                    </li>
+                  {% endif %}                  
+                  {% for comment in article.comments %}
+                    <li id="{{ comment.id }}" class="comment{% unless number_of_comments > article.comments_count %}{% if forloop.first %} first{% endif %}{% endunless %}{% if forloop.last %} last {% endif %}">
+                      {% include 'comment' %}
+                    </li>                    {% unless forloop.last %}
+                      <li><hr class="hr--clear"></li>
+                    {% endunless %}
+                  {% endfor %}
+                </ul>                {% if paginate.pages > 1 %}
+                  {% include 'pagination' %}
+                {% endif %}              {% endif %}              <hr class="hr--large">              <h2 class="h3 text-center">{{ 'blogs.comments.title' | t }}</h2>
+              <hr class="hr--small hr--clear">              <div class="form-vertical">
+                {% form 'new_comment', article %}                  {{ form.errors | default_errors }}                  <div class="grid grid--small">
+                    <div class="grid__item large--one-half">
+                      <label for="CommentAuthor" class="hidden-label">{{ 'blogs.comments.name' | t }}</label>
+                      <input class="input-full{% if form.errors contains 'author' %} error{% endif %}" type="text" name="comment[author]" placeholder="{{ 'blogs.comments.name' | t }}" id="CommentAuthor" value="{{ form.author }}" autocapitalize="words">
+                    </div>
+                    <div class="grid__item large--one-half">
+                      <label for="CommentEmail" class="hidden-label">{{ 'blogs.comments.email' | t }}</label>
+                      <input class="input-full{% if form.errors contains 'email' %} error{% endif %}" type="email" name="comment[email]" placeholder="{{ 'blogs.comments.email' | t }}" id="CommentEmail" value="{{ form.email }}" autocorrect="off" autocapitalize="off">
+                    </div>
+                  </div>                  <label for="CommentBody" class="hidden-label">{{ 'blogs.comments.message' | t }}</label>
+                  <textarea class="input-full{% if form.errors contains 'body' %} error{% endif %}" name="comment[body]" id="CommentBody" placeholder="{{ 'blogs.comments.message' | t }}">{{ form.body }}</textarea>                  <div class="text-center">
+                    {% if blog.moderated? %}
+                      <p>{{ 'blogs.comments.moderated' | t }}</p>
+                    {% endif %}                    <input type="submit" class="btn" value="{{ 'blogs.comments.post' | t }}">
+                  </div>                {% endform %}
+              </div>            </div>
+          {% endpaginate %}
+        {% endif %}      </div>
+    </div>  </article>
+</div><hr class="hr--medium hr--clear">
+<div class="text-center">
+  <a href="{{ blog.url }}" class="return-link">&larr; {{ 'blogs.article.back_to_blog' | t: title: blog.title }}</a>
+</div>
+<!--GEM_FOOTER-->
+{% capture GEM_FOOTER_SCRIPT %}
+<script data-instant-track type="text/javascript">
+	var pageLibs = [		'{{ 'gem-article-392328052897.js' | asset_url }}',	];
+</script>
+<script data-instant-track type="text/javascript">
+	var GEMVENDOR = GEMVENDOR || (function(){		var _js = {};		return {			init: function(Args) {				_js = Args;			},			getLibs: function() {				return _js;			}		};	}());	GEMVENDOR.init(pageLibs);</script>
+<script data-instant-track type="text/javascript" src="https://d1um8515vdn9kb.cloudfront.net/files/gempagev2.js?v=1.0" class="gf-script" defer></script>
+{% endcapture %}
+<!--GEM_FOOTER_END-->

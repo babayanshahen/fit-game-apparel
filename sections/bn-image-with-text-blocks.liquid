@@ -1,0 +1,65 @@
+<div id="" class="bn_image_with_text_3_columns_container wrapper">
+    {% for block in section.blocks %} 
+        {% if  block.settings.three_columns_image != blank  %}
+            <div class="bn_image_with_text_3_columns_item">
+                <div class="bn_image_with_text_item_image_container">
+                    <img src="{{ block.settings.three_columns_image  | img_url: '800x'}}">
+                </div>
+                <div class="bn_image_with_text_item_text_container">
+                    <h2>{{ block.settings.three_columns_heading }}</h2>
+                    <p>{{ block.settings.three_columns_subheading }}</p>
+                </div>
+            </div>
+        {% endif %} 
+    {% endfor %}
+</div> 
+ 
+  {% schema %}
+  {
+    "name": "Image with text BN",
+      "max_blocks": 3,
+    "settings": [
+     
+    ],
+    "blocks": [
+      {
+        "type": "select",
+        "name": "Columns",
+        "settings": [
+        {
+            "type": "image_picker",
+            "id": "three_columns_image",
+            "label": "Image"
+          },
+          {
+            "id": "three_columns_heading",
+            "type": "text",
+            "label": "Heading",
+            "default": "Heading"
+          },
+          {
+            "id": "three_columns_subheading",
+            "type": "text",
+            "label": "Text",
+            "default": "Title"
+          }
+          
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image with text BN",
+        "category": "Image",
+        "blocks": [
+          { 
+            "type": "select"
+          },
+          {
+            "type": "select"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}

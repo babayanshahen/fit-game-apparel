@@ -1,0 +1,961 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_headings": "#3b3b3b",
+    "color_body_text": "#3b3b3b",
+    "color_borders": "#ee225b",
+    "color_button_text": "#ffffff",
+    "color_primary": "#ee225b",
+    "color_secondary": "#ee225b",
+    "color_product_background": "#ffffff",
+    "color_sale_tag": "#e80970",
+    "color_input": "#dddddd",
+    "color_newsletter": "#dddddd",
+    "color_drawer_background": "#dddddd",
+    "color_drawer_text": "#3b3b3b",
+    "color_drawer_border": "#ffffff",
+    "color_drawer_button": "#ee225b",
+    "color_drawer_button_text": "#ffffff",
+    "type_header_family": "trebuchet_ms_n4",
+    "type_header_base_size": "38px",
+    "type_header_border_thickness": "1px",
+    "type_accent_family": "trebuchet_ms_n7",
+    "type_accent_transform": true,
+    "type_accent_spacing": true,
+    "type_accent_subheadings": false,
+    "type_base_family": "helvetica_n4",
+    "type_base_size": "17px",
+    "type_base_italize_titles": false,
+    "cart_type": "drawer",
+    "cart_notes_enable": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/fitgameapparel",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/fitgame",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/favicon_9cf86882-3df0-48aa-9944-a446f952accf.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_for_website_jet_grey.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fff4f6",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#0000ff",
+    "checkout_button_color": "#ee225b",
+    "checkout_error_color": "#f01130",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "collection_products_grid": "collage",
+    "customer_layout": "customer_area",
+    "favicon_enable": false,
+    "product_vendor_enable": false,
+    "social_sharing_style": "clean",
+    "sections": {
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Get news of our launch!",
+          "subheading": "<p>A limited amount of bras will be available on launch.<\/p><p>Make sure not to miss out by signing up below.<\/p>"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_for_website_jet_grey.png",
+          "logo_max_width": 170,
+          "header_color": "#3b3b3b",
+          "transparent_header_enable": true,
+          "transparent_logo": "shopify:\/\/shop_images\/logo_for_website_white.png",
+          "transparent_header_color": "#ffffff",
+          "search": "page",
+          "main_menu_link_list": "main-menu",
+          "drawer_bottom_link_list": "footer",
+          "drawer_search_enable": true,
+          "show_announcement": false,
+          "home_page_only": true,
+          "text": "Announce something here",
+          "color_bg": "#ee225b",
+          "color_text": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_payment_icons": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "footer_link_list": "footer"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "collection_products_grid": "grid",
+          "product_vendor_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_vendor_enable": false,
+          "social_sharing_products": false,
+          "quantity_enabled": false,
+          "product_selector": "radio",
+          "enable_payment_button": true,
+          "add_to_cart_button_size": "large",
+          "media_layout": "thumbnails",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like"
+        }
+      },
+      "1601738324175": {
+        "type": "featured-blog",
+        "disabled": true,
+        "settings": {
+          "title": "Blog",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_date": false,
+          "blog_show_author": false,
+          "blog_show_image": true,
+          "blog_show_excerpt": true,
+          "show_view_all": true
+        }
+      },
+      "1601803009624": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/10._fitgame_logo.jpg",
+          "layout": "left",
+          "title": "",
+          "text": "<p>We&#x27;re tired of compromising between <strong>style<\/strong> and <strong>support<\/strong> when it comes to high impact sports bras. <\/p><p>And the quest becomes even harder for women with <strong>C+ cup size<\/strong>, which is when even more options and support are needed!<\/p><p>Here at FITGAME, that&#x27;s what we&#x27;re working on changing. We are busy creating <strong>a flattering sports bra that passes the bounce test<\/strong>, or in other words, <strong>a supportive sports bra that doesn&#x27;t look like your grandma&#x27;s bra<\/strong>! (No offence to your grandma).<\/p><p>Ladies, the time for wearing multiple sports bras at one go or hiding your boring sports bra under your shirt will soon be over!<\/p><p>For sneak peaks and more info, join the conversation on our Instagram below.<\/p>",
+          "button_label": "Instagram",
+          "button_link": "http:\/\/www.instagram.com\/fitgameapparel"
+        }
+      },
+      "1601804480830": {
+        "type": "advanced-content",
+        "blocks": {
+          "1601804480830-0": {
+            "type": "html",
+            "settings": {
+              "code": "<h2>THE MISSION<\/h2>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1601804480830-0"
+        ],
+        "settings": {}
+      },
+      "1601976644429": {
+        "type": "instagram-feed",
+        "disabled": true,
+        "settings": {
+          "slide_heading": ""
+        }
+      },
+      "slideshow-email-form": {
+        "type": "slideshow-email-form",
+        "blocks": {
+          "a17f694a-840d-46f7-9b80-b9d45c5bc709": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10._fitgame_logo.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 25,
+              "text_alignment": "center",
+              "slide_heading": "Hero Banner",
+              "slide_subheading": "An introductory",
+              "slide_subsubheading": "Subsubheading",
+              "button_label": "SIGN ME UP!",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#ee225b"
+            }
+          }
+        },
+        "block_order": [
+          "a17f694a-840d-46f7-9b80-b9d45c5bc709"
+        ],
+        "settings": {
+          "home_hero_height": "full",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
+        }
+      },
+      "featured-video": {
+        "type": "featured-video",
+        "settings": {
+          "heading": "",
+          "video_url": ""
+        }
+      },
+      "featured-row": {
+        "type": "featured-row",
+        "settings": {
+          "layout": "right",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "featured-row-giveaway-lp-1": {
+        "type": "featured-row-giveaway-lp-1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/DuraMesh_Technology.jpg",
+          "layout": "left",
+          "title": "SUPPORT THAT EMPOWERS",
+          "text": "<p>With the use of our own DuraMesh™ Technology to reduce bounce, coupled with soft moulded cups, the Empower Bra provides all around support. <\/p><p>The compression and encapsulation duo will <strong>pass the bounce test<\/strong> with flying colors, empowering you to workout in endless <strong>confidence <\/strong>with a sports bra that works as hard as you.<\/p><p><\/p>",
+          "button_label": "SUBSCRIBE TO THE GIVEAWAY",
+          "button_link": "lp-newsletter-anchor-1"
+        }
+      },
+      "featured-row-givewaway-lp-2": {
+        "type": "featured-row-givewaway-lp-2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/homepage-hero-square.jpg",
+          "layout": "right",
+          "title": "STYLE AND COMFORT",
+          "text": "<p>The Empower Bra has been designed to tick all boxes of <strong>support<\/strong>, <strong>style <\/strong>and <strong>comfort<\/strong>. <\/p><p><strong>Make a statement <\/strong>with bold, feminine prints, because you know what they say - &quot;look good, feel good&quot; ...<\/p><p>But the Empower Bra is not just a pretty face. With soft, sweat-wicking fabric and DuraMesh™ Technology for breathability, the Empower Bra is a game changer when it comes to comfort!<\/p><p>Who said <strong>fashionable <\/strong>and <strong>functional <\/strong>cannot go hand in hand anyway?<\/p>",
+          "button_label": "I'M IN!",
+          "button_link": "lp-newsletter-anchor-2"
+        }
+      },
+      "featured-video-giveaway": {
+        "type": "featured-video-giveaway",
+        "settings": {
+          "heading": "",
+          "video_url": "https:\/\/vimeo.com\/475254750"
+        }
+      },
+      "newsletter-giveaway-lp-1": {
+        "type": "newsletter-giveaway-lp-1",
+        "settings": {
+          "heading": "",
+          "subheading": "<p><strong>EMPOWER BRA GIVEAWAY!<\/strong><\/p><p>Enter your email below to enter this giveaway.<\/p>",
+          "button_label": "YES! I WANT IN",
+          "bg_color": "#ee225b",
+          "newsletter_text_color": "#ffffff",
+          "newsletter_button_color": "#3b3b3b"
+        }
+      },
+      "newsletter-giveaway-lp-2": {
+        "type": "newsletter-giveaway-lp-2",
+        "settings": {
+          "heading": "",
+          "subheading": "<p>Enter your email below to enter this giveaway.<\/p>",
+          "button_label": "SIGN ME UP!",
+          "bg_color": "#ee225b",
+          "newsletter_text_color": "#ffffff",
+          "newsletter_button_color": "#3b3b3b"
+        }
+      },
+      "1604327926a9310b47": {
+        "type": "slideshow-anchor-button",
+        "blocks": {
+          "1604327926a9310b47-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/homepage-hero-3.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 25,
+              "text_alignment": "center",
+              "slide_heading": "SUPPORT MADE <br> STYLISH",
+              "slide_subheading": "High Support Sports Bras for C+ Cups",
+              "slide_subsubheading": "COMING SOON - Sign up to the VIP Waitlist for an exclusive 20% off on launch",
+              "button_label": "JOIN THE VIP WAITLIST!",
+              "button_link": "newsletter-anchor",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#ee225b"
+            }
+          }
+        },
+        "block_order": [
+          "1604327926a9310b47-0"
+        ],
+        "settings": {
+          "home_hero_height": "full",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
+        }
+      },
+      "16043279375cf816a0": {
+        "type": "advanced-content",
+        "blocks": {
+          "16043279375cf816a0-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div> <a id=\"newsletter-anchor\"><\/a>\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "16043279375cf816a0-0"
+        ],
+        "settings": {}
+      },
+      "featured-row-giveaway-lp-3": {
+        "type": "featured-row-giveaway-lp-3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/homepage-hero-square.jpg",
+          "layout": "right",
+          "title": "SUPPORT WITHOUT COMPROMISING ON STYLE",
+          "text": "<p>Nothing worse than feeling like you have to wear granny bras just to get some decent <strong>support<\/strong>. <\/p><p>Bland colours and frumpy looking bras seem to be the status quo for sports bras that <strong>pass the bounce test<\/strong>!<\/p><p>Just because you have a fuller bust does not mean that you do not want to look and feel <strong>sexy <\/strong>too!<\/p><p>If you&#x27;ve ever felt this way, than this giveaway is for you. The Empower Bra was designed with you in mind, with the perfect balance between style and much needed support.<\/p>",
+          "button_label": "SIGN ME UP!",
+          "button_link": "lp-newsletter-anchor-2"
+        }
+      },
+      "featured-row-giveaway-lp-4": {
+        "type": "featured-row-giveaway-lp-4",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/DuraMesh_Technology.jpg",
+          "layout": "left",
+          "title": "HOW IT WORKS",
+          "text": "<p>With the use of our own DuraMesh™ Technology  coupled with soft moulded cups, the Empower Bra provides all around <strong>support<\/strong>. <\/p><p>This duo creates a compressive and encapsulation fit to separate, support and reduce bounce, empowering you to workout in endless <strong>confidence <\/strong>with a sports bra that works as hard as you.<\/p><p>The days of doubling up on sports bras during your sweaty sessions is over!<\/p>",
+          "button_label": "SUBSCRIBE TO THE GIVEAWAY",
+          "button_link": "lp-newsletter-anchor-1"
+        }
+      },
+      "feature-row-sportsbra-pp-1": {
+        "type": "feature-row-sportsbra-pp-1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/homepage-hero-square.jpg",
+          "layout": "right",
+          "title": "Support Meets Style",
+          "text": "<p>Conquer your high intensity workouts<em> and <\/em>deliver looks.<\/p><ul>\n  <li>Make a statement in our hand drawn feminine prints.<\/li>\n  <li>All around support with our own bounce reduction DuraMesh™ Technology. <\/li>\n  <li>Stay comfy with no underwires poking at you. Instead: soft moulded cups that maintain an agreeable shape.<\/li>\n<\/ul><p>\n<\/p><hr class=\"hr--small\">\n<strong>Materials<\/strong>: 87% Polyester 13% Spandex<p><strong>Care Instructions: <\/strong>Hand wash recommended; if machine wash, use the laundry bag provided with the bra and use cold water, delicate cycle. Lay flat to dry.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-sportsbra-pp-2": {
+        "type": "feature-row-sportsbra-pp-2",
+        "settings": {
+          "first_image": "shopify:\/\/shop_images\/feature-row-image1.jpg",
+          "second_image": "shopify:\/\/shop_images\/feature-row-image2.jpg",
+          "title": "How Does the Empower Bra Work?",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "reviews-product-page": {
+        "type": "reviews-product-page",
+        "settings": {}
+      },
+      "CTA-button-pre-order": {
+        "type": "CTA-button-pre-order",
+        "settings": {
+          "button_label": "PRE-ORDER NOW",
+          "button_link": "product-section"
+        }
+      },
+      "1609313932ac47aff8": {
+        "type": "featured-products",
+        "settings": {
+          "title": "Grit & Grace Collection",
+          "home_featured_products": "grit-grace",
+          "collection_products_grid": "grid"
+        }
+      },
+      "accordion": {
+        "type": "accordion",
+        "blocks": {
+          "e865cfca-c56e-49ea-8185-44c558f4d62d": {
+            "type": "text",
+            "settings": {
+              "question": "How can I check my order and delivery status?",
+              "answer": "<p>Once you place your order online, please allow up to 3 business days for us to process your order. You will then receive an order confirmation email with a link and tracking number to track your order. If you have not heard from us within this time frame please email us at admin@fitgameapparel.com<\/p>"
+            }
+          },
+          "68ff6cfb-d612-4a55-af5b-1b84a7aa04b4": {
+            "type": "text",
+            "settings": {
+              "question": "How long does it take my order to arrive?",
+              "answer": "<p>European orders typically arrive within 4-7 days and International orders . We want to make sure that your order gets to you sage and sound, so we require a signature on all of our deliveries. We will try our best to ensure that all orders placed before 10am GMT will be posted by 12pm the same day.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "e865cfca-c56e-49ea-8185-44c558f4d62d",
+          "68ff6cfb-d612-4a55-af5b-1b84a7aa04b4"
+        ],
+        "settings": {}
+      },
+      "support-navigation": {
+        "type": "support-navigation",
+        "blocks": {
+          "c9f3ffa2-3841-4a76-9c35-36af2dad80e6": {
+            "type": "text",
+            "settings": {
+              "navlabel": "Shipping",
+              "navurl": "shopify:\/\/pages\/faqs-shipping"
+            }
+          },
+          "a15971b1-75ce-4ab0-b966-25d90cb066f3": {
+            "type": "text",
+            "settings": {
+              "navlabel": "Returns & Exchanges",
+              "navurl": "shopify:\/\/pages\/returns-exchanges"
+            }
+          },
+          "8825bd84-3931-4d60-9ebe-ff5131621415": {
+            "type": "text",
+            "settings": {
+              "navlabel": "Have a Question?",
+              "navurl": "shopify:\/\/pages\/contact-us"
+            }
+          }
+        },
+        "block_order": [
+          "c9f3ffa2-3841-4a76-9c35-36af2dad80e6",
+          "a15971b1-75ce-4ab0-b966-25d90cb066f3",
+          "8825bd84-3931-4d60-9ebe-ff5131621415"
+        ],
+        "settings": {}
+      },
+      "accordion-faqs-shipping": {
+        "type": "accordion-faqs-shipping",
+        "blocks": {
+          "b4d8e1b1-11d4-48fc-b87f-610bac01e551": {
+            "type": "text",
+            "settings": {
+              "question": "Will Covid-19 impact the delivery of my order?",
+              "answer": "<p>Please note that the items are dispatched immediately without any delays. \r<\/p><p>However, please expect a delay in the delivery of your order due to the impact of Covid-19 on our courier. Please allow up to 1-2 weeks to receive your order once it has been shipped for European orders and up to 3-4 weeks for International orders.\r<\/p><p>This is because all postal networks globally have had to implement strict safety policies which slows down the delivery process. On top of that, postal services are experiencing a huge decrease in passenger flights that are also used to carry cargo, which further adds to the delay. It’s unavoidable and there is nothing we can do to speed it up. Please bear with us as we navigate safely through this crazy time.\r<\/p><p><\/p>"
+            }
+          },
+          "9e5c3190-bdb2-4706-9f4f-e2437c901ceb": {
+            "type": "text",
+            "settings": {
+              "question": "How much does shipping cost?",
+              "answer": "<p><strong>Europe<\/strong><\/p><p>Spend €75 or more and you&#x27;ll get free shipping.<\/p><p>€75 or less? Shipping is charged at a flat rate of €6.95.<\/p><p><strong>International<\/strong><\/p><p>Spend €75 or more and you&#x27;ll get shipping at a reduced flat rate of €5.95.<\/p><p>€75 or less? Shipping is charged at a flat rate of €11.95.<\/p><p>** Shipping and product costs <em><strong>do not include duties or taxes <\/strong><\/em>that may be applicable to your order. For detailed information about what duties or taxes you may be charged, please refer to your local customs website. Our products are dispatched from Malta, Europe.<\/p>"
+            }
+          },
+          "82bb87fa-669a-446f-b1b0-e73298f8ff2a": {
+            "type": "text",
+            "settings": {
+              "question": "How long will my order take to arrive?",
+              "answer": "<p>All orders are sent via Maltapost tracked shipping, with an estimated delivery time of 5-7 business days for European orders and 10-15 days for International orders.<\/p><p>** Please allow additional time for delivery due to Covid-19 delays when placing your order.<\/p>"
+            }
+          },
+          "7cd62be8-4f45-4d6c-a66e-dcb88a36a649": {
+            "type": "text",
+            "settings": {
+              "question": "Why don't we deliver to the UK?",
+              "answer": "<p>Unfortunately, due to the new Brexit rules, we cannot ship to the UK. As from January 2021, the UK has imposed a unique taxation regime that requires every business sending their merchandise to the UK to apply for VAT in the UK. \r<\/p><p>Unfortunately, since we are a small business, this is not something which is viable to us at the moment. We regret deeply not being able to provide our products to customers within the UK and we are working hard at remedying this.<\/p>"
+            }
+          },
+          "8afe3655-935d-4954-98ad-6fe19b0f11e6": {
+            "type": "text",
+            "settings": {
+              "question": "How do I track my order?",
+              "answer": "<p>Once you place your order online, please allow up to 3 business days for us to process your order. When your order is dispatched, you will receive an email with a link and tracking number.<\/p><p>You can also log in to your account (or create one with the same email used for the order) and find the tracking link and tracking number under &#x27;My Orders&#x27;.<\/p>"
+            }
+          },
+          "aade94be-3346-4891-8d5a-fe8ca9edac38": {
+            "type": "text",
+            "settings": {
+              "question": "Can I change my shipping address?",
+              "answer": "<p>In the case of a wrong delivery address, email us at <a title=\"mailto:admin@fitgameapparel.com\" href=\"mailto:admin@fitgameapparel.com\" target=\"_blank\"><em>admin@fitgameapparel.com <\/em><\/a> with details including your order number and the new address to deliver to.<\/p><p>The more information provided, the sooner we can try to change your information. Make sure to enter &#x27;Urgent: Change wrong address&#x27; in the subject line.<\/p><p>We pride ourselves that packages are normally dispatched within the same day of the order, so it is preferable if we are notified within 2 hours of the order. Once parcels have been dispatched we are unable to change the address.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "b4d8e1b1-11d4-48fc-b87f-610bac01e551",
+          "9e5c3190-bdb2-4706-9f4f-e2437c901ceb",
+          "82bb87fa-669a-446f-b1b0-e73298f8ff2a",
+          "7cd62be8-4f45-4d6c-a66e-dcb88a36a649",
+          "8afe3655-935d-4954-98ad-6fe19b0f11e6",
+          "aade94be-3346-4891-8d5a-fe8ca9edac38"
+        ],
+        "settings": {}
+      },
+      "accordion-faqs-returns": {
+        "type": "accordion-faqs-returns",
+        "blocks": {
+          "89fa153f-4928-415d-a67e-fd2dc54d7b21": {
+            "type": "text",
+            "settings": {
+              "question": "How can I return an item?",
+              "answer": "<p>Any purchase can be returned to us for an exchange or refund if returned within 60 days of purchase. <\/p><p>To be eligible for a return\/exchange, the items must be returned unused and in the same condition that you received them, including hang tags and other labels. <\/p><p>Items must be returned in their original packaging including the returns form that was sent along with your package, filled in with the relevant information. <\/p><p>Sale items and gift cards are non-returnable.<\/p>"
+            }
+          },
+          "3d2af3a2-526d-4b28-aeaf-99d3fc22add1": {
+            "type": "text",
+            "settings": {
+              "question": "How can I exchange an item?",
+              "answer": "<p>To exchange an item for another size or colour, kindly return the items as described in the question above, writing &#x27;EXCHANGE&#x27; on the returns form. Do not forget to check whether your desired size and colour is in stock and if so, to note the details onto the returns form.<\/p><p>Should you wish to ensure you get your desired size and colour, it is best to purchase the items immediately rather than wait for them to be manually exchanged. We cannot guarantee that the size\/ colour you desire will be in stock at the time of the exchange.<\/p>"
+            }
+          },
+          "8b04eb67-c751-4b13-bbca-a5615d544e4a": {
+            "type": "text",
+            "settings": {
+              "question": "What about returns\/exchanges shipping?",
+              "answer": "<p>The address where you should send your returns to can be found on the returns form in your package.\r<\/p><p>You will be responsible for your own return shipping costs. However, if you wish to exchange rather than just return the items, we will cover the shipping costs to re-send you the new items you opted for. Exchanges will be posted using an untracked service, unless contacted by the customer and told otherwise before the dispatch. Additional costs may be required to upgrade the delivery method.\r<\/p><p>To return any items to us, you should consider using pre-paid trackable shipping service, possibly including shipping insurance. We cannot guarantee that we will receive your returned item and we cannot cover the costs of any lost packages.<\/p>"
+            }
+          },
+          "ce00d071-94a5-4f31-ab47-b0bec665f984": {
+            "type": "text",
+            "settings": {
+              "question": "Refunds",
+              "answer": "<p>Once the return is received and inspected, we will send you an email to acknowledge the return and a refund will be credited to the original method of payment within 7 business days.<\/p><p>For exchanged orders, any price difference from the original order will either be credited to the original payment method or you will be contacted to pay the new balance should you opt for items with a higher price.<strong> <\/strong><\/p><p>If after 7 days you still have not received the refund yet, contact us at <a title=\"Fitgame email address\" href=\"mailto:admin@fitgameapparel.com\">admin@fitgameapparel.com<\/a> quoting quoting your order number.<\/p>"
+            }
+          },
+          "2e8b8097-4503-4493-b9d3-e3de288afb15": {
+            "type": "text",
+            "settings": {
+              "question": "Faulty items",
+              "answer": "<p>Should you have any issues with the quality of the items received, contact us at <a title=\"Fitgame email address\" href=\"mailto:admin@fitgameapparel.com\" target=\"_blank\"><em>admin@fitgameapparel.com<\/em> <\/a> quoting your order number, complete with photo evidence of the issues you found in your items and we will sort out any problems.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "89fa153f-4928-415d-a67e-fd2dc54d7b21",
+          "3d2af3a2-526d-4b28-aeaf-99d3fc22add1",
+          "8b04eb67-c751-4b13-bbca-a5615d544e4a",
+          "ce00d071-94a5-4f31-ab47-b0bec665f984",
+          "2e8b8097-4503-4493-b9d3-e3de288afb15"
+        ],
+        "settings": {}
+      },
+      "feature-row-sportsbra-pp": {
+        "type": "feature-row-sportsbra-pp",
+        "blocks": {
+          "eba51f0e-933d-4f80-a376-a24598d5be01": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dura-mesh_3ea529ef-9899-4324-bd6e-57bdbf6f561e.jpg",
+              "heading": "Bounce Reduction Technology",
+              "text": "<p>Strategically placed mesh dramatically reduces side-to-side and up-and-down movement and ventilates. <\/p>"
+            }
+          },
+          "55d3db21-608e-4e98-957b-451fc1c90f9d": {
+            "type": "text",
+            "settings": {
+              "heading": "Performance Moulded Cups",
+              "text": "<p>Breathable cups provide support through encapsulation and compression.<\/p>"
+            }
+          },
+          "bb9278a1-d752-46d2-8399-2ce48cf89be5": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Feature-Row-Adjustable-Clasp.jpg",
+              "heading": "Adjustable Band",
+              "text": "<p>3-level hook &amp; eye clasp for a customised fit.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "eba51f0e-933d-4f80-a376-a24598d5be01",
+          "55d3db21-608e-4e98-957b-451fc1c90f9d",
+          "bb9278a1-d752-46d2-8399-2ce48cf89be5"
+        ],
+        "settings": {
+          "title": "Section Heading"
+        }
+      },
+      "giveaway-hero": {
+        "type": "giveaway-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/3_bras_and_headband_2_guf.gif",
+          "bg_color": "#ee225b",
+          "progress-bar-image": "shopify:\/\/shop_images\/progress-bar.png"
+        }
+      },
+      "16134857716a7d5518": {
+        "type": "bn-image-with-text-blocks",
+        "blocks": {
+          "16134857716a7d5518-0": {
+            "type": "select",
+            "settings": {
+              "three_columns_image": "shopify:\/\/shop_images\/IMG_20201113_192353.jpg",
+              "three_columns_heading": "Heading",
+              "three_columns_subheading": "A small description"
+            }
+          },
+          "16134857716a7d5518-1": {
+            "type": "select",
+            "settings": {
+              "three_columns_image": "shopify:\/\/shop_images\/IMG_20201113_192353.jpg",
+              "three_columns_heading": "Heading",
+              "three_columns_subheading": "A small description"
+            }
+          },
+          "b0f7fcf0-ad73-4060-8b5f-ba6f4985d8c5": {
+            "type": "select",
+            "settings": {
+              "three_columns_image": "shopify:\/\/shop_images\/IMG_20201113_192353.jpg",
+              "three_columns_heading": "Heading",
+              "three_columns_subheading": "A small description"
+            }
+          }
+        },
+        "block_order": [
+          "16134857716a7d5518-0",
+          "16134857716a7d5518-1",
+          "b0f7fcf0-ad73-4060-8b5f-ba6f4985d8c5"
+        ],
+        "settings": {}
+      },
+      "bn-image-with-text-blocks": {
+        "type": "bn-image-with-text-blocks",
+        "blocks": {
+          "42bf0a3c-f764-43be-8407-9284ea2fc67d": {
+            "type": "select",
+            "settings": {
+              "three_columns_image": "shopify:\/\/shop_images\/Feature-Row-Adjustable-Clasp.jpg",
+              "three_columns_heading": "Heading",
+              "three_columns_subheading": "Title"
+            }
+          },
+          "83492cad-ac17-4eab-a347-b4a9a252a788": {
+            "type": "select",
+            "settings": {
+              "three_columns_image": "shopify:\/\/shop_images\/Feature-Row-Adjustable-Clasp.jpg",
+              "three_columns_heading": "Heading",
+              "three_columns_subheading": "Title"
+            }
+          },
+          "ca271e2f-5ca7-4b19-a82a-2df8a9b04b82": {
+            "type": "select",
+            "settings": {
+              "three_columns_image": "shopify:\/\/shop_images\/Feature-Row-Adjustable-Clasp.jpg",
+              "three_columns_heading": "Heading",
+              "three_columns_subheading": "Title"
+            }
+          }
+        },
+        "block_order": [
+          "42bf0a3c-f764-43be-8407-9284ea2fc67d",
+          "83492cad-ac17-4eab-a347-b4a9a252a788",
+          "ca271e2f-5ca7-4b19-a82a-2df8a9b04b82"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "1604327926a9310b47",
+      "1601738324175",
+      "1601804480830",
+      "1601803009624",
+      "1609313932ac47aff8",
+      "1601976644429",
+      "16043279375cf816a0",
+      "newsletter",
+      "16134857716a7d5518"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "checkout_accent_color": "#a26b25",
+      "checkout_button_color": "#000000",
+      "checkout_error_color": "e32c2b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "slide",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {
+            "section_title": "",
+            "text_size": "large"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-3": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-4": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2",
+            "featured-collections-3",
+            "featured-collections-4"
+          ],
+          "settings": {}
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "collection_products_grid": "grid"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-content",
+        "featured-collections",
+        "featured-products",
+        "featured-product",
+        "newsletter"
+      ]
+    },
+    "Playful": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#565656",
+      "color_borders": "#5dd2b4",
+      "color_button_text": "#ffffff",
+      "color_primary": "#7737BD",
+      "color_secondary": "#058677",
+      "color_product_background": "#fff4f6",
+      "color_sale_tag": "#e80970",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#bde9f2",
+      "color_drawer_background": "#360f5f",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#50297a",
+      "color_drawer_button": "#7737BD",
+      "color_drawer_button_text": "#ffffff",
+      "color_headings": "#321863",
+      "type_header_family": "quicksand_n7",
+      "type_header_base_size": "38px",
+      "type_header_border_thickness": "1px",
+      "type_accent_family": "roboto_n7",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "type_accent_subheadings": false,
+      "type_base_family": "helvetica_n4",
+      "type_base_size": "17px",
+      "type_base_italize_titles": false,
+      "cart_type": "drawer",
+      "cart_notes_enable": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_google_plus_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fff4f6",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Roboto",
+      "checkout_accent_color": "#7737BD",
+      "checkout_button_color": "#7737BD",
+      "checkout_error_color": "#f01130",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "social_sharing_style": "clean",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1495823280244": {
+              "type": "slide",
+              "settings": {
+                "slide_text_color": "#ffffff",
+                "slide_button_label_color": "#003B34",
+                "slide_button_background_color": "#84D1B2"
+              }
+            }
+          },
+          "block_order": [
+            "1495823280244"
+          ],
+          "settings": {
+            "hero_home_auto": false,
+            "home_hero_auto_speed": 5
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "collection_products_grid": "collage"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_max_width": 260,
+            "search": "modal",
+            "main_menu_link_list": "main-menu",
+            "show_announcement": false,
+            "color_bg": "#290c49",
+            "color_text": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_tags_enable": false,
+            "collection_products_grid": "grid",
+            "product_vendor_enable": false
+          }
+        },
+        "1494860348200": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "1494894035034": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": false,
+            "social_sharing_products": true,
+            "enable_image_zoom": false,
+            "enable_video_looping": false
+          }
+        },
+        "1496078102297": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496078102297-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"text-align:center;\">\n<h1 class=\"h1\">Use HTML to format your text so it can be easily read.<\/h1>This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496078102297-0"
+          ],
+          "settings": {}
+        },
+        "1496177901425": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496177901425-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496177901425-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1496177901425",
+        "featured-products",
+        "newsletter",
+        "1496078102297",
+        "1494860348200",
+        "1494894035034"
+      ]
+    }
+  }
+}

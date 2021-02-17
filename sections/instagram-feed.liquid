@@ -1,0 +1,54 @@
+<div class="wrapper">
+  <div id="shopify-instagram-feed" class="shopify_instagram_feed">
+    {{ 'instagram-feed-jquery.js' | asset_url | script_tag }}
+  </div>
+
+  <script>
+    (function($){
+      $(window).on('load', function(){
+        $.instagramFeed({
+          'username': 'fitgameapparel', //Username of Instagram
+          'container': "#shopify-instagram-feed",
+          'display_profile': true, //Decide whether to display user's profile
+          'display_biography': false, //Decide whether to display user's biography
+          'display_gallery': true, //Decide whether to display Instagram photos as a gallery
+          'get_raw_json': false,
+          'callback': null,
+          'styling': true,
+          'items': 5, //Set the maximum number of photos to display - Maximum is 12
+          'items_per_row': 5, //Set the maximum number of photos per row
+          'margin': 1 //Set the space between photos
+        });
+      });
+    })(jQuery);
+  </script>
+  
+</div>
+
+{% schema %}
+{
+  "name": {
+    "en": "Instagram Feed"
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "slide_heading",
+      "label": {
+      "en": "Heading"
+      }
+    }      
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "Instagram Feed"
+      },
+      "category": {
+        "en": "Image"
+      }
+    }
+  ]
+}
+{% endschema %}
+

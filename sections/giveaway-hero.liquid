@@ -1,0 +1,68 @@
+<div class="grid__item giveaway-hero__item large--seven-twelfths medium--seven-twelfths">
+  {% assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+  <img class="giveaway-hero__image lazyload"
+       src="{{ section.settings.image | img_url: '300x' }}"
+       data-src="{{ img_url }}"
+       data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048]"
+       data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+       data-sizes="auto"
+       data-parent-fit="cover"
+       alt="{{ section.settings.image.alt | escape }}">
+</div>
+
+<div class="grid__item giveaway-hero__item large--four-twelfths medium--four-twelfths">
+  <div class="giveaway-text-container"> 
+    {% if section.settings.progress-bar-image != blank %}
+      <div class="progressbar-container">
+        {% assign img_url = section.settings.progress-bar-image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+        <img class="lazyload"
+             src="{{ section.settings.progress-bar-image | img_url: '300x' }}"
+             data-src="{{ img_url }}"
+             data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048]"
+             data-aspectratio="{{ section.settings.progress-bar-image.aspect_ratio }}"
+             data-sizes="auto"
+             data-parent-fit="cover"
+             alt="{{ section.settings.progress-bar-image.alt | escape }}">
+    {% endif %}
+
+    <div id="fd-form-5fa28df876d8d61f8fcf1270"></div>
+    <script>
+      window.fd('form', {
+        formId: '5fa28df876d8d61f8fcf1270',
+        containerEl: '#fd-form-5fa28df876d8d61f8fcf1270'
+      });
+    </script>
+  </div>
+</div>
+
+
+
+
+{% schema %}
+  {
+    "name": "Giveaway Hero",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image" 
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "BG Color"
+      },
+      {
+        "type": "image_picker",
+        "id": "progress-bar-image",
+        "label": "Preogress Bar" 
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

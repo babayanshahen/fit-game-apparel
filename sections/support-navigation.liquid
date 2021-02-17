@@ -1,0 +1,38 @@
+<div class="support-navigation">
+  {% for block in section.blocks %}
+    <div class="support-navigation-tab">
+      <a href="{{ block.settings.navurl }}" class="support-nav-label {% if block.settings.navurl == page.url %} support-nav-label-selected {% endif %}">{{ block.settings.navlabel }}</a>
+    </div> 
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Support Navigation",
+    "settings": [],
+	"blocks": [
+      {
+        "type": "text",
+        "name": "Button",
+        "settings":[
+          {
+            "id":"navlabel",
+            "type":"text",
+            "label": "The Label"
+          },
+          {
+            "id":"navurl",
+            "type":"url",
+            "label": "The Support Link"
+          }
+        ]
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,37 @@
+<!-- /templates/page.full-width.liquid -->
+{% comment %}
+  <header class="section-header text-center">
+    <h1>{{ page.title }}</h1>
+  </header>
+{% endcomment %}
+
+{% comment %} the following layout has been introduced to remove the header and footer on the landing page {% endcomment %}
+{% layout 'theme.landing-page' %}
+
+
+{% comment %}
+  {% section 'featured-video-giveaway' %}
+  {% section 'newsletter-giveaway-lp-1' %} 
+{% endcomment %}
+
+<div class="newsletter--form">
+  <div class="note form-success text-center"> 
+    Thanks for subscribing to the giveaway! <br>
+    Keep an eye on our <a href="https://www.instagram.com/fitgameapparel/" style="color: #0000EE;">Instagram page</a> and your inbox for updates. 
+  </div>
+</div>
+
+<div style="margin-top:20px">
+  <h2 class="h1 section-header__title text-center">
+    What's so special about the Empower Bra?
+  </h2>
+</div>
+
+{% section 'featured-row-giveaway-lp-3' %}
+{% section 'featured-row-giveaway-lp-4' %}
+
+{% comment %}
+  {% section 'newsletter-giveaway-lp-2' %} 
+{% endcomment %}
+
+

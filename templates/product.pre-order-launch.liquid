@@ -1,0 +1,24 @@
+<!-- /templates/product.liquid -->
+{% comment %}
+  The contents of the product.liquid template can be found in /sections/product-template.liquid
+{% endcomment %}
+
+<h2 class="h1 section-header__title text-center" style="color:{{ settings.color_secondary }}">
+  20% OFF &amp; FREE GIFT
+</h2>
+
+{% section 'featured-video-giveaway' %}
+<a id="product-section"></a>
+{% section 'product-template-pre-order' %}
+{% section 'feature-row-sportsbra-pp-1' %}
+{% section 'CTA-button-pre-order' %}
+{% section 'feature-row-sportsbra-pp-2' %}
+{% section 'CTA-button-pre-order' %}
+{% section 'product-recommendations' %}
+
+{% if collection %}
+  <hr class="hr--clear">
+  <div class="text-center">
+    <a href="{{ collection.url }}" class="return-link">&larr; {{ 'products.general.collection_return' | t: collection: collection.title }}</a>
+  </div>
+{% endif %}

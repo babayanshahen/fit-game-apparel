@@ -1,0 +1,41 @@
+<div class="accordion">
+  {% for block in section.blocks %}
+    <div class="accordion-tab">
+      <input type="checkbox" id="accordion-tab{{forloop.index}}" class="accordion-tab-toggle">
+      <label for="accordion-tab{{forloop.index}}" class="accordion-tab-label">{{block.settings.question}}</label>
+      <div class="accordion-tab-content">{{block.settings.answer}}</div>
+    </div>
+  {% endfor %}
+</div>
+
+
+{% schema %}
+  {
+    "name": "Accordion Returns",
+    "settings": [],
+    "blocks": [
+      {
+		"type": "text",
+		"name": "Q/A",
+		"settings":[
+			{
+				"id":"question",
+				"type":"text",
+				"label": "The Question"
+			},
+			{
+				"id":"answer",
+				"type":"richtext",
+				"label": "The Answer"
+			}
+		]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

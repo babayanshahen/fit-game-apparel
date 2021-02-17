@@ -1,0 +1,38 @@
+<!-- /templates/page.full-width.liquid -->
+
+{% comment %} the following layout has been introduced to remove the header and footer on the landing page {% endcomment %}
+{% layout 'theme.landing-page' %}
+
+<div class="grid--full grid--table">
+  <a id="lp-newsletter-anchor-1"></a>
+
+  <div class="grid__item giveaway-hero__wrapper">
+    {% section 'giveaway-hero' %}
+  </div>
+
+  <div class="grid__item" style="margin-top:20px">
+    <h2 class="h1 section-header__title text-center">
+      What's so special about the Empower Bra?
+    </h2>
+  </div>
+
+  {% section 'featured-row-giveaway-lp-3' %}
+  {% section 'featured-row-giveaway-lp-4' %}
+
+  <a id="lp-newsletter-anchor-2"></a>
+
+  <div id="fd-form-5fa28df876d8d61f8fcf1270-dup"></div>
+  <script>
+    window.fd('form', {
+      formId: '5fa28df876d8d61f8fcf1270',
+      containerEl: '#fd-form-5fa28df876d8d61f8fcf1270-dup'
+    });
+  </script>
+
+</div>
+
+{% comment %}
+  {% section 'newsletter-giveaway-lp-2' %} 
+{% endcomment %}
+
+
